@@ -1,0 +1,13 @@
+.contenairDescription{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.filmC{
+    width: 100%;
+    height: 50%;
+}
