@@ -13,7 +13,7 @@ const Principal = () => {
       <div className={"menuContenaire"}>
         <div className={"listStyle"}>
           <Button
-            onClick={() => navigate("/movielist")}
+            onClick={()=>navigate("/movielist")}
             variant="contained"
             color="primary"
           >

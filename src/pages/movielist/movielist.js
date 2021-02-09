@@ -1,7 +1,7 @@
 import "./movielist.css";
 import React, { useState } from "react";
 import Moviecard from "../../components/moviecard/moviecard";
-import Description from "../description/description";
+
 import {
   Button,
   Dialog,
@@ -139,7 +139,6 @@ const Movielist = () => {
             value={rate}
             onChange={(event) => setRate(event.target.value)}
           />
-
           <TextField
             autoFocus
             margin="dense"

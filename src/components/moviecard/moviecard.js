@@ -6,13 +6,13 @@ import {useHistory} from 'react-router-dom';
 const Moviecard = (props)=>{
     const history = useHistory();
     const navigate = (path) => {
-    history.push(path)
-    }
+      history.push(path);
+    };
     
     return(
         <Card style={{borderRadius:'2rem 5rem', backgroundColor:'rgba(187, 255, 0, 0.781)'}}
             className={'cardStyle'}
-            onClick={()=>navigate('/description')} >
+            onClick={()=>navigate("/description")} >
             <h1>Votre film</h1>
             <h3> Le titre : {props.title} </h3>
             <h3> Description : {props.description} </h3>
